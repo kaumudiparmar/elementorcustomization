@@ -1,0 +1,261 @@
+/* Team portfolio Style Start*/
+
+.elementor-portfolio{
+    margin: 0px -15px;
+}
+.elementor-widget-container .elementor-portfolio__filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.elementor-widget-container .elementor-portfolio__filters .elementor-portfolio__filter{
+    font-size: var(--e-global-typography-accent-font-size);
+    font-weight: var(--e-global-typography-text-font-weight);
+    font-family: var(    --e-global-typography-primary-font-family);
+    line-height: normal;
+    border: 1px solid var(--e-global-color-d7ffacd);
+    background-color: var(--e-global-color-d7ffacd);
+    border-radius: 10px;
+    color: var(--e-global-color-secondary);
+    padding:10px 25px;
+}
+.elementor-widget-container .elementor-portfolio__filters .elementor-portfolio__filter.elementor-active,
+.elementor-widget-container .elementor-portfolio__filters .elementor-portfolio__filter:hover,
+.elementor-widget-container .elementor-portfolio__filters .elementor-portfolio__filter:focus{
+    color: var(--e-global-color-primary) !important;
+    background-color: var(--e-global-color-a3270fe);
+    border-color: var(--e-global-color-primary);
+}
+
+.elementor-widget-container .elementor-portfolio-team-member-item{
+    padding: 0px 15px !important;
+}
+.elementor-widget-container .elementor-portfolio-team-member-item .elementor-portfolio-item_acf_content{
+    border:1px solid var(--e-global-color-c6994ff);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.elementor-widget-container .elementor-portfolio-item_acf_content .elementor-portfolio-team-member-item_img {
+     max-height: 227px;
+     background-color: var(--e-global-color-d7ffacd);
+     position: relative;
+     text-align: center;
+}
+.elementor-widget-container .elementor-portfolio-item_acf_content .elementor-portfolio-team-member-item_img img.team-member-img,
+.elementor-widget-container .elementor-portfolio-item_acf_content .elementor-portfolio-team-member-item_img img.team-free-img{
+    width: auto;
+    max-width: 100%;
+    height: 227px;
+    object-fit: cover;
+    max-height: 227px;
+    margin: auto;
+}
+
+.elementor-widget-container .elementor-portfolio-item_acf_content .elementor-portfolio-team-member-data .elementor-portfolio-team-member-item__title{
+    margin-bottom: 0px;
+    color: var(--e-global-color-primary);
+    font-weight: 600;
+    padding: 20px 15px 0px;
+}
+.elementor-widget-container .elementor-portfolio-item_acf_content .elementor-portfolio-team-member-data .elementor-portfolio-team-member-position{
+    margin-bottom: 0px;
+    color: var(--e-global-color-secondary);
+    padding: 0px 15px 0px;
+}
+.elementor-widget-container .elementor-portfolio-item_acf_content .elementor-portfolio-team-member-data .elementor-portfolio-team-member-email{
+    padding: 15px 15px 10px;
+    border-top: 1px solid var(--e-global-color-d7ffacd);
+    margin-top: 50px;
+}
+.elementor-widget-container .elementor-portfolio-item_acf_content .elementor-portfolio-team-member-data .elementor-portfolio-team-member-email a{
+    
+    color: var(--e-global-color-secondary);    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.elementor-widget-container .elementor-portfolio-item_acf_content .elementor-portfolio-team-member-data .elementor-portfolio-team-member-email a:hover,
+.elementor-widget-container .elementor-portfolio-item_acf_content .elementor-portfolio-team-member-data .elementor-portfolio-team-member-email a:focus{
+    color: var(--e-global-color-primary);    
+}
+.elementor-widget-container .elementor-portfolio-item_acf_content .elementor-portfolio-team-member-data .elementor-portfolio-team-member-email a:before{
+    content: '';
+    position: relative;
+    background-image: url('../images/Calling.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px
+}
+.elementor-widget-container .elementor-portfolio-item_acf_content .elementor-portfolio-team-member-data .elementor-portfolio-team-member-phone{
+    padding: 0px 15px 15px;
+}
+.elementor-widget-container .elementor-portfolio-item_acf_content .elementor-portfolio-team-member-data .elementor-portfolio-team-member-phone a{
+ 
+    color: var(--e-global-color-secondary);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.elementor-widget-container .elementor-portfolio-item_acf_content .elementor-portfolio-team-member-data .elementor-portfolio-team-member-phone a:before{
+    content: '';
+    position: relative;
+    background-image: url('../images/Message.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.elementor-widget-container .elementor-portfolio-item_acf_content .elementor-portfolio-team-member-data .elementor-portfolio-team-member-phone a:hover,
+.elementor-widget-container .elementor-portfolio-item_acf_content .elementor-portfolio-team-member-data .elementor-portfolio-team-member-phone a:focus{
+    color: var(--e-global-color-primary);   
+}
+.port-team-flip-btn .team-img-flip-icon{
+	height: 15px;
+    width: 15px;
+    margin: auto;
+}
+.elementor-portfolio-team-member-item_img{
+	position: relative;
+}
+.port-team-flip-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color:  var(--e-global-color-primary);
+    height: 30px;
+    width: 30px;
+    display: flex;
+    border-radius: 10px;
+}
+
+
+@media (max-width:992px) {
+    .elementor-widget-container .elementor-portfolio__filters .elementor-portfolio__filter{
+        margin-bottom: 15px;
+        margin-left: 0px !important;
+    }
+}
+
+/* Team portfolio Style End*/
+
+/* Project portfolio Style */
+.elementor-widget-container .elementor-portfolio-project-item {
+    padding: 0px 15px !important;
+}
+.elementor-widget-container .elementor-portfolio-project-item .elementor-portfolio-project-item_acf_content{
+    position: relative;
+    width: 100%;
+    min-height: 430px;
+    padding: 15px 15px;
+    height: 430px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;   
+    opacity: 1;
+
+}
+.elementor-widget-container .elementor-portfolio-project-item .elementor-portfolio-project-item_acf_content .elementor-portfolio-project-item_img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;     
+}
+.elementor-widget-container .elementor-portfolio-project-item .elementor-portfolio-project-item_acf_content .elementor-portfolio-project-item_img:after{
+    content: '';
+    opacity: 0;
+    background: #151515 0% 0% no-repeat padding-box;
+    position: absolute;
+    width: 100%;
+     height: 100%;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     z-index: 1;
+     border-radius: 10px;
+     animation: all 3s ease-in-out;
+}
+.elementor-widget-container .elementor-portfolio-project-item .elementor-portfolio-project-item_acf_content:hover .elementor-portfolio-project-item_img:after{
+    background: #151515 0% 0% no-repeat padding-box;
+    opacity: 0.6;
+}
+
+.elementor-widget-container .elementor-portfolio-project-item .elementor-portfolio-project-item_acf_content .project-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.elementor-widget-container .elementor-portfolio-project-item .elementor-portfolio-project-item_acf_content .elementor-portfolio-project-data{
+    position: relative;
+    z-index: 1;
+}
+
+.elementor-widget-container .elementor-portfolio-project-item .elementor-portfolio-project-item_acf_content .elementor-portfolio-project-item__title{ 
+    line-height: normal;
+    color: var( --e-global-color-a3270fe);
+    margin-bottom: 15px;
+}
+.elementor-widget-container .elementor-portfolio-project-item .elementor-portfolio-project-item_acf_content .portfolio-project-tax-lists{
+    background-color: var( --e-global-color-374f222 );
+    color: var( --e-global-color-a3270fe);
+    font-size: 11px;
+    font-family: var( --e-global-typography-6dc871d-font-family );
+    font-weight: var( --e-global-typography-6dc871d-font-weight);
+    font-style: var( --e-global-typography-6dc871d-font-style );
+    line-height: var( --e-global-typography-6dc871d-line-height );
+    border-radius: 30px;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.elementor-widget-container .elementor-portfolio-project-item .elementor-portfolio-project-item_acf_content .portfolio-project-readmore{
+    display: none;
+}
+.elementor-widget-container .elementor-portfolio-project-item .elementor-portfolio-project-item_acf_content:hover .portfolio-project-readmore{
+    display: block;
+}
+
+.elementor-widget-container .elementor-portfolio-project-item .elementor-portfolio-project-item_acf_content .portfolio-project-readmore .port-proj-btn-link{
+    color: var( --e-global-color-a3270fe);
+    border-bottom: 1px solid var(--e-global-color-a3270fe);  
+}
+
+.elementor-widget-container .elementor-portfolio-project-item .elementor-portfolio-project-item_acf_content .portfolio-project-readmore .port-proj-btn-link:hover,
+.elementor-widget-container .elementor-portfolio-project-item .elementor-portfolio-project-item_acf_content .portfolio-project-readmore .port-proj-btn-link:focus
+{
+    color: var( --e-global-color-a3270fe);
+    border-bottom: 1px solid var(--e-global-color-a3270fe);
+}
+.elementor-widget-container .elementor-portfolio-project-item .elementor-portfolio-project-item_acf_content .portfolio-project-readmore .port-proj-btn-link:after{
+    content: '';
+    position: relative;
+    background-image: url('../images/button-arrow-2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-size: 100%;
+    width: 9px;
+    height: 15px;
+    display: inline-block;
+    margin-left: 10px;
+    transform: rotate(90deg);
+    top: 3px;
+    margin-right: 5px;
+}
+
+
+/* Project portfolio Style End*/
